@@ -1,0 +1,9 @@
+-runsystempackages.sun       :  sun.misc, sun.reflect
+-runfw                       :  org.apache.felix.framework
+-runee                       :  JavaSE-1.8
+-runrequires: \
+	bnd.identity;id='org.apache.felix.gogo.command',\
+	bnd.identity;id='org.apache.felix.gogo.runtime'
+-runbundles: \
+	org.apache.felix.gogo.command;version='[1.0.2,1.0.3)',\
+	org.apache.felix.gogo.runtime;version='[1.0.10,1.0.11)'
